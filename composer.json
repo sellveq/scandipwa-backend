@@ -1,0 +1,48 @@
+{
+    "name": "selveq/scandipwa-backend",
+    "description": "Metapackage installing the Selveq-maintained ScandiPWA backend modules for Magento 2",
+    "type": "metapackage",
+    "version": "1.0.0",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "Selveq",
+            "homepage": "https://selveq.com",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/selveq/scandipwa-backend/issues",
+        "source": "https://github.com/selveq/scandipwa-backend"
+    },
+    "require": {
+        "magento/framework": "^103.0",
+        "selveq/installer": "^5.0",
+        "selveq/module-core": "^2.0",
+        "selveq/service-worker": "^2.0",
+        "selveq/cache": "^2.0",
+        "selveq/persisted-query": "^4.0",
+        "selveq/slider-graphql": "^3.0",
+        "selveq/cms-graphql": "^2.0",
+        "selveq/catalog-graphql": "^4.0",
+        "selveq/route717": "^3.0",
+        "selveq/performance": "^2.0",
+        "selveq/customer-graphql": "^5.0",
+        "selveq/quote-graphql": "^4.0",
+        "selveq/wishlist-graphql": "^3.0",
+        "selveq/urlrewrite-graphql": "^2.0",
+        "selveq/store-graphql": "^2.0",
+        "selveq/customization": "^3.0",
+        "selveq/locale": "^3.0",
+        "selveq/contact-graphql": "^2.0",
+        "selveq/compare-graphql": "^2.0",
+        "selveq/customer-downloadable-graphql": "^2.0",
+        "selveq/directory-graphql": "^2.0",
+        "selveq/product-alerts-graphql": "^2.0",
+        "selveq/sales-graphql": "^2.0",
+        "selveq/catalog-customer-graphql": "^2.0",
+        "selveq/review-graphql": "^2.0"
+    }
+}
